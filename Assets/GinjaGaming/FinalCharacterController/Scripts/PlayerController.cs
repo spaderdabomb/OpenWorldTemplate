@@ -73,8 +73,6 @@ namespace GinjaGaming.FinalCharacterController
         private void Update()
         {
             UpdateMovementState();
-            print(_characterController.velocity);
-
             HandleVerticalMovement();
             HandleLateralMovement();
         }
