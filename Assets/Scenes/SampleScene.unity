@@ -122,6 +122,61 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &313276757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 313276759}
+  - component: {fileID: 313276758}
+  m_Layer: 0
+  m_Name: ObjectPlacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &313276758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313276757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f7547c3987d8754cb33392bb111fd45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeableObjectPrefab: {fileID: 4433796783034921260, guid: 716769cefb1bd8a45b8a0f3e71db3642,
+    type: 3}
+  previewObjectPrefab: {fileID: 1286994392734957460, guid: d0837ee007d28784995c31378c673c0c,
+    type: 3}
+  playerCamera: {fileID: 1302745866}
+  placementSurfaceLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  objectDistanceFromPlayer: 2
+  raycastStartVerticalOffset: 100
+  raycastDistance: 1000
+--- !u!4 &313276759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313276757}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 515.46075, y: 17.535168, z: 586.0759}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +383,11 @@ PrefabInstance:
       propertyPath: sprintAcceleration
       value: 35
       objectReference: {fileID: 0}
+    - target: {fileID: 1849901879102475396, guid: aa0dc18b8b0e3924a831420e4edc1397,
+        type: 3}
+      propertyPath: _groundLayers.m_Bits
+      value: 129
+      objectReference: {fileID: 0}
     - target: {fileID: 4389807745426357149, guid: aa0dc18b8b0e3924a831420e4edc1397,
         type: 3}
       propertyPath: m_Name
@@ -417,6 +477,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1302745866 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 3822927564161998416, guid: aa0dc18b8b0e3924a831420e4edc1397,
+    type: 3}
+  m_PrefabInstance: {fileID: 798925709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1319263371
 GameObject:
   m_ObjectHideFlags: 0
@@ -428,7 +494,7 @@ GameObject:
   - component: {fileID: 1319263374}
   - component: {fileID: 1319263373}
   - component: {fileID: 1319263372}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,3 +803,4 @@ SceneRoots:
   - {fileID: 1319263374}
   - {fileID: 798925709}
   - {fileID: 1771817583}
+  - {fileID: 313276759}
