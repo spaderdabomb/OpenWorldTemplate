@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3169895911816694878}
   - component: {fileID: 785958855790564381}
   - component: {fileID: 117039201381747737}
+  - component: {fileID: 897496788219836493}
   m_Layer: 0
   m_Name: Rock_01
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4848094207355705771}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 518.76184, y: 17.71, z: 589.06635}
-  m_LocalScale: {x: 1, y: 1, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 0.8000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &785958855790564381
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -83,3 +84,26 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &897496788219836493
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848094207355705771}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5899731
+  m_Height: 1.1459587
+  m_Direction: 1
+  m_Center: {x: -0.09818016, y: -0.061673388, z: -0.060373932}
