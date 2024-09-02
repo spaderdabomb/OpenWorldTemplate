@@ -151,14 +151,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f7547c3987d8754cb33392bb111fd45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placeableObjectPrefab: {fileID: 4433796783034921260, guid: 716769cefb1bd8a45b8a0f3e71db3642,
+  placeableObjectPrefab: {fileID: 2145936637663279574, guid: 8de0f154bdb53f34d924fbeb87ee641c,
     type: 3}
-  previewObjectPrefab: {fileID: 1286994392734957460, guid: d0837ee007d28784995c31378c673c0c,
+  previewObjectPrefab: {fileID: 7723841813364536130, guid: 827f89b5c1143f74f85086d915f2dac7,
     type: 3}
   playerCamera: {fileID: 1302745866}
   placementSurfaceLayerMask:
     serializedVersion: 2
     m_Bits: 128
+  previewMaterial: {fileID: 2100000, guid: 8225433e40d3ab247b86c3cb21d8a23a, type: 2}
+  validColor: {r: 0.3019608, g: 0.5372549, b: 0.9098039, a: 0.29411766}
+  invalidColor: {r: 0.79607844, g: 0.3254902, b: 0.24313726, a: 0.29411766}
   objectDistanceFromPlayer: 2
   raycastStartVerticalOffset: 100
   raycastDistance: 1000
