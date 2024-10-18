@@ -1,0 +1,18 @@
+{
+    "name": "AmplifyImpostors.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a1a7cacb6cec073439a2b2c1849d773b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

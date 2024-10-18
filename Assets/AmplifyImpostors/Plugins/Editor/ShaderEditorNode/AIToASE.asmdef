@@ -1,0 +1,22 @@
+{
+    "name": "AIToASE",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f540dafdfbc0586439d98823585550d4",
+        "GUID:a1a7cacb6cec073439a2b2c1849d773b",
+        "GUID:beb7ced4cc341384592d9187e65da6b5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "AMPLIFY_SHADER_EDITOR"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
