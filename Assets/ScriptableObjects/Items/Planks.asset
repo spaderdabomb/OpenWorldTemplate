@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0d17286d5ca924b903b1adef804bc7, type: 3}
+  m_Name: Planks
+  m_EditorClassIdentifier: 
+  itemID: 4242dc1a-2856-4fb9-bbca-66981f707d79
+  baseName: Planks
+  displayName: Planks
+  description: A pile of planks
+  itemRarity: 0
+  maxStackCount: 50
+  sellValue: 5
+  worldItemPrefab: {fileID: 2614320248528186471, guid: bae3dcebeed176e43b2077a04290c46d,
+    type: 3}
+  itemSprite: {fileID: 21300000, guid: 6134bd63c2bfba5448db3218e8e25bf1, type: 3}

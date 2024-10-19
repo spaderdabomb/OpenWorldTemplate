@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0d17286d5ca924b903b1adef804bc7, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: 
+  itemID: a5f6512e-043f-4923-882a-ce8f507ad249
+  baseName: Stone
+  displayName: Stone
+  description: A stone
+  itemRarity: 0
+  maxStackCount: 50
+  sellValue: 1
+  worldItemPrefab: {fileID: 614094513643307889, guid: d69982586ce40fe4998258ea50b49b64,
+    type: 3}
+  itemSprite: {fileID: 21300000, guid: 1d4272a50fe25cf46ad6f1707f8e384e, type: 3}

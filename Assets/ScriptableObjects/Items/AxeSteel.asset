@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cca6df31790fc0488d830a45355ccf5, type: 3}
+  m_Name: AxeSteel
+  m_EditorClassIdentifier: 
+  itemID: 25a3b2ea-a4dd-43f5-a0b2-92778f6fe4c2
+  baseName: AxeSteel
+  displayName: Steel Axe
+  description: A sturdy Axe
+  itemRarity: 2
+  maxStackCount: 1
+  sellValue: 50
+  worldItemPrefab: {fileID: 306314691034043442, guid: 4cd2df7c2fb98b945b89b3bf451ce5df,
+    type: 3}
+  itemSprite: {fileID: 21300000, guid: ac2d6b5966c419f42935a4668a40bafe, type: 3}
+  itemHeldPrefab: {fileID: 8085220318364994713, guid: 1f801b0bb024a2c4d88fcf55f32ed996,
+    type: 3}
+  baseDamage: 10
+  critDamage: 15
+  attackBonus: 5
+  defenseBonus: 0
